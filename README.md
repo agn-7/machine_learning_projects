@@ -1,5 +1,7 @@
 # Machine_Learning_Projects
 
+Integration of several machine learning projects through `git submodule`.
+
 ## clone:
 
 ```
