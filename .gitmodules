@@ -1,3 +1,6 @@
 [submodule "gaussian_naive_bayes_classifier"]
 	path = gaussian_naive_bayes_classifier
 	url = git@github.com:agn-7/gaussian_naive_bayes_classifier.git
+[submodule "pca_applicator"]
+	path = pca_applicator
+	url = git@github.com:agn-7/pca_applicator.git
