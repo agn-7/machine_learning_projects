@@ -19,7 +19,7 @@ filterwarnings('ignore')
 
 
 def init(apply_pca=False):
-    df = pd.read_csv('/home/agn/Desktop/Data_Science/Session_20/blocks.csv')
+    df = pd.read_csv('dataset/blocks.csv')
     y = df.iloc[:, 0]  # select first column.
     y = LabelEncoder().fit_transform(y)  # Encoding labels to numbers.
     X = df.iloc[:, 1:]  # remove first column.
